@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1769856284.33497 "/Users/hassan/code/my-cv/main.tex" "main.pdf" "main" 1769856284.68625 0
-  "/Users/hassan/code/my-cv/main.tex" 1769856099.22709 8341 96966a082ab848203598b365e819af7e ""
+["pdflatex"] 1769857014.07586 "/Users/hassan/code/my-cv/main.tex" "main.pdf" "main" 1769857014.43719 0
+  "/Users/hassan/code/my-cv/main.tex" 1769856986.87716 8325 9c3ff0f86b87d1460795358f29d5eb43 ""
   "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741388039 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
@@ -87,9 +87,9 @@
   "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/url/url.sty" 1741388039 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346125 851abcc596872d7f7285a006ccee0040 ""
-  "main.aux" 1769856284.65284 815 52ebf9fdbf793bb66c10daef91d3eb67 "pdflatex"
-  "main.out" 1769856284.65326 468 4a4a8d18abbd403e081b414ab6fe35a5 "pdflatex"
-  "main.tex" 1769856099.22709 8341 96966a082ab848203598b365e819af7e ""
+  "main.aux" 1769857014.4079 815 52ebf9fdbf793bb66c10daef91d3eb67 "pdflatex"
+  "main.out" 1769857014.40854 468 4a4a8d18abbd403e081b414ab6fe35a5 "pdflatex"
+  "main.tex" 1769856986.87716 8325 9c3ff0f86b87d1460795358f29d5eb43 ""
   (generated)
   "main.aux"
   "main.log"
