@@ -1,0 +1,129 @@
+%-------------------------
+% Cover Letter in LaTeX
+% Matching style with main.tex CV
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------------------------
+%%%%%%  COVER LETTER STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Hassan Refaat} \\ \vspace{1pt}
+    \small Cairo, Egypt $|$ +20 1221736193 $|$ \href{mailto:hassan.refaat.dev@gmail.com}{\underline{hassan.refaat.dev@gmail.com}} $|$
+    \href{https://linkedin.com/in/refaatcrafts}{\underline{linkedin}} $|$
+    \href{https://github.com/refaatcrafts}{\underline{github}} $|$
+    \href{https://refaatcrafts.space}{\underline{blog}}
+\end{center}
+
+\vspace{20pt}
+
+%----------DATE----------
+% TODO: Replace with application date
+\noindent
+{DATE}
+
+\vspace{15pt}
+
+%----------RECIPIENT----------
+% TODO: Replace with hiring manager name if known, otherwise use title
+\noindent
+{HIRING\_MANAGER} \\
+{COMPANY\_NAME} \\
+
+\vspace{15pt}
+
+%----------SALUTATION----------
+\noindent
+Dear Hiring Manager,
+
+\vspace{10pt}
+
+%----------OPENING PARAGRAPH (THE HOOK)----------
+% TODO: Customize this paragraph for each application
+% - Reference why you're excited about THIS specific company
+% - Mention the specific role you're applying for
+% - Quick value proposition
+\noindent
+{COMPANY\_HOOK --- what specifically excites you about this company's mission, product, or culture}. I am writing to express my interest in the \textbf{{POSITION}} position at {COMPANY\_NAME}. As a product-minded backend engineer with 3 years of experience building scalable systems and taking initiatives from idea to production, I am excited about the opportunity to contribute to your team.
+
+\vspace{10pt}
+
+%----------SECOND PARAGRAPH (VALUE & EXPERTISE)----------
+% Highlight your product-minded approach and technical skills
+\noindent
+What sets me apart is my product-minded approach to engineering. I don't just write code---I focus on solving user problems and measuring impact. At Taager, I integrated e-commerce connectors that drove 300K+ orders, collaborated with the product team to improve confirmation rates, and served as a technical partner for top-tier merchants, building custom tooling to improve retention. Beyond my day-to-day work, I founded Yadwy, a multi-seller handmade marketplace, where I led product discovery, market research, and built the entire platform from scratch. I thrive on taking initiative and shipping solutions that create real value.
+
+\vspace{10pt}
+
+%----------THIRD PARAGRAPH (RELEVANT ACHIEVEMENT)----------
+% TODO: Select the most relevant achievement from your CV for this role
+% Options to choose from:
+% - WooCommerce/Lightfunnels integration: 300K+ orders
+% - E-commerce store builder: led team of 3, 100+ orders daily
+% - Microservices optimization: 15% latency reduction, $500/month savings
+% - Yadwy marketplace: full-stack founder experience
+\noindent
+{RELEVANT\_ACHIEVEMENT --- Choose the achievement from your experience that best aligns with the role. Include specific metrics and impact. For example: "At Taager, I built an e-commerce store builder platform from scratch, architecting the backend with Spring Boot and leading a team of 3 engineers to deliver an MVP now processing 100+ orders daily."}
+
+\vspace{10pt}
+
+%----------CLOSING PARAGRAPH----------
+\noindent
+I am genuinely excited about the opportunity to bring my skills in distributed systems, Spring Boot, and product-focused engineering to {COMPANY\_NAME}. I would welcome the chance to discuss how my experience building scalable backend systems and my initiative-taking mindset can contribute to your team's success.
+
+\vspace{10pt}
+
+\noindent
+Thank you for considering my application. I look forward to hearing from you.
+
+\vspace{20pt}
+
+%----------SIGNATURE----------
+\noindent
+Sincerely,
+
+\vspace{30pt}
+
+\noindent
+Hassan Refaat
+
+%-------------------------------------------
+\end{document}
